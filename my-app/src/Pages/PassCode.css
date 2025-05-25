@@ -1,0 +1,33 @@
+.numbers-grid{
+    background-color: #f7fafc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.number-button{
+    display: grid;
+    padding: 10px;
+    grid-template-columns: repeat(3, 1fr); 
+    place-items: center;
+    gap: 0.5rem;
+    align-items: center;
+    /* gap: 12px; */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.button{
+    color:white;
+    background-color:#3182ce;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    width: 36px;
+    border: none;
+    border-radius: 5px;
+    height: 45px;
+}
+.button:hover {
+    background-color: #2b6cb0;
+  }
