@@ -25,6 +25,7 @@ function PassCodeChallenge() {
     // const passcode="0000";
   return (<>
         <div className="numbers-grid">
+          <div className='starpassword'>****</div>
           <div className='number-button'> 
         {num.map((num) => (
           <button className="button" key={num} onClick={() => handleClick(num)}>
