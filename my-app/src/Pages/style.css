@@ -32,3 +32,52 @@
     margin-top: 0.5rem;
     color: #2b8a3e;
   }
+  
+  .To-do-list-body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+  }
+  form{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+  }
+  form input{
+    flex-basis: 80%;
+  }
+  form button{
+    flex-basis: 20%;
+  }
+  .outer-div{
+    width: 1170px;
+    margin: auto;
+  }
+  .outer-div ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    margin-top: 20px;
+  }
+  .outer-div li{
+    padding: 10px;
+    background: black;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .outer-div ul li span{
+    right: 20px;
+    cursor: pointer;
+    position: absolute;
+  }
+  .complete{
+    text-decoration: line-through;
+    color: red;
+  }

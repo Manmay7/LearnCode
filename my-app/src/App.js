@@ -4,6 +4,7 @@ import DefaultPage from './Pages/defaultPage';
 import PassCodeChallenge from './Pages/PassCodeChallenge';
 import CustomTimer from './Pages/CustomTimer';
 import AutoCompleteForm from './Pages/AutoCompleteForm';
+import ToDoList from './Pages/ToDoList';
 
 function App(){
   return (
@@ -14,6 +15,7 @@ function App(){
         <Route path="/default" element={<DefaultPage />} />
         <Route path="/pass" element={<PassCodeChallenge />} />
         <Route path='/auto' element={<AutoCompleteForm/>}/>
+        <Route path='/todo' element={<ToDoList/>}/>
       </Routes>
     </Router>
   );
